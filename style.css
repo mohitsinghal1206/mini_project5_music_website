@@ -58,16 +58,16 @@ nav {
 .logo {
   display: flex;
   align-items: center;
-  font-size: 1.3rem; /* Match font size from previous design */
-  font-weight: bolder; /* Ensure the same weight as previous design */
-  color: white; /* Ensure logo text color matches previous design */
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: white;
 }
 
 .logo-img {
-  width: 44px; /* Logo size */
-  height: auto; /* Maintain aspect ratio */
-  margin-right: 8px; /* Space between logo image and text */
-  border-radius: 50%; /* Optional: if you want rounded corners */
+  width: 44px;
+  height: auto;
+  margin-right: 8px;
+  border-radius: 50%;
 }
 
 button {
@@ -224,120 +224,3 @@ nav ul li:hover {
   scroll-margin: 120px;
 }
 
-/* Media Queries */
-@media (max-width: 1200px) {
-  .container {
-    padding: 0 20px;
-  }
-}
-
-@media (max-width: 992px) {
-  nav ul {
-    display: none;
-  }
-
-  .logo {
-    font-size: 1.2rem; /* Adjust for medium screens */
-  }
-
-  .logo-img {
-    width: 30px; /* Adjust for medium screens */
-    margin-right: 6px;
-  }
-
-  .hero-section h1 {
-    font-size: 72px;
-  }
-
-  .hero-section h3 {
-    font-size: 24px;
-  }
-
-  .about-music {
-    padding-top: 300px;
-  }
-
-  .ipad-iphone-img {
-    margin-top: -300px;
-    top: 300px;
-  }
-}
-
-@media (max-width: 768px) {
-  nav {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .logo {
-    font-size: 1.1rem; /* Adjust for smaller screens */
-  }
-
-  .logo-img {
-    width: 28px; /* Adjust for smaller screens */
-    margin-right: 4px;
-  }
-
-  .hero-section h1 {
-    font-size: 48px;
-  }
-
-  .hero-section h3 {
-    font-size: 18px;
-  }
-
-  .music-section .container {
-    gap: 20px;
-  }
-
-  .gift-section {
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-  }
-
-  .gift-content {
-    text-align: center;
-  }
-}
-
-@media (max-width: 576px) {
-  .logo {
-    font-size: 1rem; /* Adjust for very small screens */
-  }
-
-  .logo-img {
-    width: 24px; /* Adjust for very small screens */
-    margin-right: 2px;
-  }
-
-  .hero-section h1 {
-    font-size: 36px;
-  }
-
-  .hero-section h3 {
-    font-size: 16px;
-  }
-
-  .music-section .container {
-    text-align: center;
-  }
-
-  .about-music {
-    padding-top: 100px;
-  }
-
-  .ipad-iphone-img {
-    margin-top: -200px;
-    top: 200px;
-  }
-
-  .footer-upper .container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .footer-upper h4 {
-    margin-bottom: 20px;
-  }
-}
